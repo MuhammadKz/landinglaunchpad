@@ -251,4 +251,33 @@ h1, h2, p {
 .contact button:hover { 
     background: #bd8b02; 
 }
+/* Footer */
+footer { 
+    text-align: center; 
+    padding: 40px 20px; 
+    color: #222;
+}
+.footer-content, .footer-content p {
+  color: #8987A1; 
+  font-size: 14px; 
+  font-weight: 200; 
+  margin: 0 auto 18px auto;
+}
+.footer-logo { 
+    font-family: 'Inter', sans-serif; 
+    font-size: 50px; 
+    font-weight: 900; 
+    color: #4E47FF; 
+}
+.footer-links a { 
+    margin: 0 10px; 
+    color: #8987A1; 
+}
+.footer-links a:hover { 
+    color: #4E47FF; 
+}
 
+
+
+
+ 
