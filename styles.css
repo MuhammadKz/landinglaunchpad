@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #333;
+  margin: 0; padding: 0;
+}
+a { 
+    color: #333; 
+    text-decoration: none; 
+}
+h1, h2, p { 
+    font-weight: bold; 
+}
+
+/* Navbar & Hero */
+.hero-section {
+  background: #fff url('./images/Hero-bg.png') center/cover;
+  padding: 40px 20px; 
+  text-align: center;
+}
+.navbar {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px 0;
+}
+.logo {
+  font-family: "Inter", sans-serif; 
+  font-weight: 900; 
+  font-size: 34px; 
+  color: #4E47FF;
+}
+.sgnp-btn, .st-fd-btn, .lnch-btn, .gsf-btn {
+  background: #4E47FF; 
+  color: #fff; 
+  border: none; 
+  border-radius: 8px;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer;
+}
+.sgnp-btn:hover, .st-fd-btn:hover, .lnch-btn:hover, .gsf-btn:hover { 
+    background: #bd8b02; 
+}
+.banner-content { 
+    margin-top: 50px; 
+}
+.hero-section .banner-content h1 {
+  font-family: "Raleway", sans-serif; 
+  font-weight: 700; 
+  font-size: 80px; 
+  color: #333; 
+  margin-bottom: 20px;
+}
+
