@@ -11,7 +11,6 @@ a {
 h1, h2, p { 
     font-weight: bold; 
 }
-
 /* Navbar & Hero */
 .hero-section {
   background: #fff url('./images/Hero-bg.png') center/cover;
@@ -52,7 +51,6 @@ h1, h2, p {
   color: #333; 
   margin-bottom: 20px;
 }
-
 /* Action */
 .action {
   display: flex; 
@@ -171,6 +169,43 @@ h1, h2, p {
     font-size: 12px; 
     color: #888; 
     margin-top: 5px; 
+}
+/* Focus Hero */
+.focus-hero {
+  background: #fff; 
+  padding: 48px 0 60px 0; 
+  text-align: center; 
+  border-radius: 16px;
+  margin: 48px auto; 
+  max-width: 900px; 
+  box-shadow: 0 4px 28px 0 rgba(0,0,0,0.11);
+}
+.focus-hero-content h1 { 
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+    font-size: 40px; 
+    margin-bottom: 25px;
+}
+.focus-hero-content .testimonial { 
+    font-family: "Inter", sans-serif; 
+    color: rgba(0,0,0,0.5); 
+    margin-bottom: 22px; 
+    font-size: 14px; 
+}
+.focus-hero-content .gsf-btn { 
+    padding: 13px 36px; 
+    font-size: 18px; 
+    border-radius: 7px; 
+}
+.focus-hero-image { 
+    margin-top: 32px; 
+}
+.focus-hero-image img { 
+    width: 92%; 
+    max-width: 620px; 
+    border-radius: 24px; 
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,0.16); 
+    background: #fff; 
 }
 /* Contact */
 .contact {
