@@ -77,3 +77,38 @@ h1, h2, p {
     max-width: 400px; 
     border-radius: 10px;
 }
+
+/* Productive Users */
+.productive-users {
+  background: #e6e8ff; 
+  text-align: center; 
+  padding: 50px 60px; 
+  margin: 116px 165px 116px 155px; 
+  border-radius: 24px;
+}
+.productive-users h2 { 
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+}
+.stats { 
+    display: flex; 
+    justify-content: center; 
+}
+.stats div { 
+    margin: 0 15px; 
+    font-family: "Inter", sans-serif; 
+}
+.x { 
+    color:rgba(0,0,0,0.5); 
+    font-family: "Inter", sans-serif; 
+    font-size: 16px; 
+    font-weight: 400; 
+}
+.user { 
+    font-size: 50px; 
+    color: #4E47FF; 
+    font-family: "Inter", 
+    sans-serif; 
+    font-weight: bold; 
+    margin-bottom: 2px; 
+}
