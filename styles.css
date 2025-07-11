@@ -172,4 +172,83 @@ h1, h2, p {
     color: #888; 
     margin-top: 5px; 
 }
+/* Contact */
+.contact {
+  display: flex; 
+  padding: 50px 20px; 
+  justify-content: space-between; 
+  background: #fff;
+}
+.contact-left { 
+    display: flex; 
+    align-items: center; 
+}
+.contact-left h2 { 
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+    font-size: 80px; 
+    color: #111; 
+    margin-bottom: 0; 
+    line-height: 1;
+}
+.contact-right { 
+    display: flex; 
+    align-items: center; 
+    width: 100%; 
+    justify-content: flex-end; 
+}
+.contact-right form {
+  font-family: "Inter", sans-serif; 
+  width: 350px; 
+  background: transparent; 
+  display: flex; 
+  flex-direction: column;
+}
+.contact-right form label {
+  font-family: "Inter", sans-serif; 
+  color: #1c1c1c; 
+  font-size: 14px; 
+  margin-bottom: 5px; 
+  margin-top: 10px; 
+  font-weight: 500;
+}
+.contact input, .contact textarea {
+  width: 100%; 
+  padding: 14px 18px; 
+  margin-bottom: 18px; 
+  border-radius: 8px;
+  border: 1px solid #e6e6ef; 
+  background: #fff; 
+  font-size: 16px; 
+  color: #222; 
+  transition: border 0.2s; 
+  box-sizing: border-box;
+}
+.contact textarea { 
+    min-height: 100px; 
+    resize: vertical; 
+}
+.contact input::placeholder, .contact textarea::placeholder {
+  color: #b0b3c7; 
+  font-size: 15px; 
+  text-transform: lowercase; 
+  opacity: 1;
+}
+.contact button {
+  font-family: "Raleway", sans-serif; 
+  background: #5E6DFF; 
+  color: #fff;
+  border: none; 
+  border-radius: 7px; 
+  padding: 13px 0; 
+  font-size: 16px; 
+  font-weight: 600; 
+  width: 100%; 
+  margin-top: 8px;
+  cursor: pointer; 
+  transition: background 0.2s;
+}
+.contact button:hover { 
+    background: #bd8b02; 
+}
 
